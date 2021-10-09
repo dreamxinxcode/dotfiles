@@ -13,7 +13,7 @@
 
 !URxvt.font:               xft:TerminessTTF Nerd Font:size=10:minspace=False, xft:DejaVu Sans:pixelsize=10 
 !URxvt.font: xft:TerminessTTF Nerd Font Mono-12,xft:Symbols Nerd Font-8
-URxvt.font: xft:TerminessTTF Nerd Font Mono-12:pixelsize=18
+URxvt.font: xft:TerminessTTF Nerd Font, Mono-12:pixelsize=18
 
 URxvt.geometry:	          100x28
 URxvt.underlineURLs:	    true
@@ -23,7 +23,7 @@ URxvt.iso14755:           false
 URxvt.iso14755_52:        false
 !URxvt*depth:		          32
 URxvt*shading:            35
-URxvt.internalBorder:     33
+URxvt.internalBorder:     45
 URxvt.cursorBlink:        true
 Xcursor.size: 25
 URxvt.saveLines:          20000
