@@ -23,26 +23,30 @@ super + p
 alt + shift + d + c
     urxvt -e ~/Documents
 
-# reload bspwmrc
+# Reload bspwmrc
 super + r
 	/home/$USER/.config/bspwm/bspwmrc
 
-# urxvt
+# Urxvt
 alt + Return
     urxvt
  
 alt + shift + Return
 	urxvt -name URxvtFloat
 
-# dev
+# Dev
 alt + d
     urxvt -cd '/home/arch/dev'
 
-#xterm
+# xXterm
 alt + t
 	xterm
 
-# firefox
+# Anki
+alt + a
+  anki
+
+# Firefox
 alt + w
 	firefox
 
@@ -66,74 +70,86 @@ super + s
 super + shift + s
     steam
 
-# vscode
+# Vscode (Timber Tracks)
 alt + v
-	code /home/arch/dev/timber-tracks
+	code /home/arch/dev/timbertracks
+
+# Vscode (Evals)
+alt + e
+  code /home/arch/dev/evals
+
+# Android Studio
+alt + a
+    android-studio
 
 # QtCreator
 alt + shift + c
     qtcreator
 
-# virtualbox
+# Virtualbox
 alt + shift + v
 	VirtualBox
 
-# wireshark
+# Wireshark
 alt + shift + w + s
     exec wireshark
 
-# libreoffice
+# Libreoffice
 alt + shift + l + o
     libreoffice
 
-# genymotion
+# Genymotion
 alt + c
     genymotion
 
-# htop
+# Htop
 alt + h + t
 	htop
 
-# ranger
+# Ranger
 alt + r
 	urxvt -e ranger
 
-#discord
+# Discord
 alt + shift + d
 	discord
 
-# ncmpcpp
+# NCMPCPP
 alt + n
 	ncmpcpp
 
-# screenshot
+# Screenshot
 Print
 	scrot '%Y-%m-%d_%H-%M-%S.png' -e 'mv $f ~/Pictures/screenshots/'
 
 ctrl + Print
 	scrot -d 3 '%Y-%m-%d_%H-%M-%S.png' -e 'mv $f ~/Pictures/screenshots'
 
-#screenlock
+# Screenlock
 super + BackSpace
     exec /home/$USER/.scripts/lockscreen.sh
 
-#xsnow
+# Xsnow
 alt + shift + s
     exec xsnow -snowflakes 350 -windtimer 100 -delay 40 -nosanta -notrees
 
-# make sxhkd reload its configuration files:
+# Make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd
 
-# wallpaper cycle
+# Lockscreen
+super + l
+  exec /home/$USER/.scripts/lockscreen.sh
+
+# Wallpaper Cycle
 super + w
 	exec /home/$USER/.scripts/walcycle.sh
 
-#urxvt transparency
+# Urxvt Transparency
 super + t
 	exec /home/$USER/.scripts/transparency.sh
 
-#volume
+# Volume
 super + {Right,Up,Left,Down}
     amixer set Master {1%+,5%+,1%-,5%-}
 

@@ -11,9 +11,7 @@
 !░░ URXVT ░░
 !░░░░░░░░░░░
 
-!URxvt.font:               xft:TerminessTTF Nerd Font:size=10:minspace=False, xft:DejaVu Sans:pixelsize=10 
-!URxvt.font: xft:TerminessTTF Nerd Font Mono-12,xft:Symbols Nerd Font-8
-URxvt.font: xft:TerminessTTF Nerd Font, Mono-12:pixelsize=18
+URxvt.font: xft:TerminessTTF Nerd Font, Mono-12:pixelsize=20
 
 URxvt.geometry:	          100x28
 URxvt.underlineURLs:	    true
@@ -25,11 +23,9 @@ URxvt.iso14755_52:        false
 URxvt*shading:            35
 URxvt.internalBorder:     45
 URxvt.cursorBlink:        true
-Xcursor.size: 25
+Xcursor.size:             25
 URxvt.saveLines:          20000
-URxvt*transparent: false
-!URxvt.letterSpace:       2
-
+URxvt.letterSpace:        0.1
 
 !█▓▒░ Extensions
 

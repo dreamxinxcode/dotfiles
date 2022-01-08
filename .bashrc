@@ -45,6 +45,7 @@ alias polybarconfig="vim ~/.config/polybar/config"
 alias dunstconfig="vim ~/.config/dunst/dunstrc"
 alias rangerconfig="vim ~/.config/ranger/rc.conf"
 alias neofetchconfig="vim ~/.config/neofetch/config.conf"
+alias picomconfig="vim ~/.config/picom.conf"
 alias useful="vim ~/Documents/useful/useful"
 
 note() {
@@ -86,6 +87,11 @@ alias gch='git checkout'
 alias gra='git remote add'
 alias grr='git remote rm'
 
+#█▓▒░ Work
+alias api="cd /home/arch/dev/timbertracks/timbertracks_api && make start && make shell"
+alias webapp="cd /home/arch/dev/timbertracks/timbertracks_webapp && make run"
+alias mobile="cd /home/arch/dev/timbertracks/timbertracks_mobile_v2 && make run"
+
 #█▓▒░ Fun scripts
 alias snow="~/.scripts/./snow.sh"
 alias pipes="~/.scripts/./pipes.sh -p 10"
@@ -94,3 +100,8 @@ alias pipesx="~/.scripts/./pipesX.sh"
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# Use bash-completion, if available
+[[ $PS1 && -f /usr/share/bash-completion/bash_completion ]] && \
+    . /usr/share/bash-completion/bash_completion
+
