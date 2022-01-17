@@ -1,0 +1,174 @@
+! ██╗░░██╗██████╗░███████╗███████╗░██████╗░██╗░░░██╗██████╗░░██████╗███████╗███$
+! ╚██╗██╔╝██╔══██╗██╔════╝██╔════╝██╔═══██╗██║░░░██║██╔══██╗██╔════╝██╔════╝██╔$
+! ░╚███╔╝░██████╔╝█████╗░░███████╗██║░░░██║██║░░░██║██████╔╝██║░░░░░█████╗░░███$
+! ░██╔██╗░██╔══██╗██╔══╝░░╚════██║██║░░░██║██║░░░██║██╔══██╗██║░░░░░██╔══╝░░╚══$
+! ██╔╝░██╗██║░░██║███████╗███████║╚██████╔╝╚██████╔╝██║░░██║╚██████╗███████╗███$
+! ╚═╝░░╚═╝╚═╝░░╚═╝╚══════╝╚══════╝░╚═════╝░░╚═════╝░╚═╝░░╚═╝░╚═════╝╚══════╝╚══$
+
+! Press Alt+Shift+r to reload Xresources
+
+; Xft.antialias:	1
+; Xft.hinting:	1
+; Xft.autohint:	0
+; Xft.hintstyle:	hintslight
+; Xft.rgba:	rgb
+; Xft.lcdfilter:	lcddefault
+
+; #define base00 #282c34
+; #define base01 #353b45
+; #define base02 #3e4451
+; #define base03 #545862
+; #define base04 #565c64
+; #define base05 #abb2bf
+; #define base06 #b6bdca
+; #define base07 #c8ccd4
+; #define base08 #e06c75
+; #define base09 #d19a66
+; #define base0A #e5c07b
+; #define base0B #98c379
+; #define base0C #56b6c2
+; #define base0D #61afef
+; #define base0E #c678dd
+
+; #define base0F #be5046
+; *foreground:   base07
+; *background:   #1e222a
+; *cursorColor:  base05
+
+; *color0:       base00
+; *color1:       base08
+; *color2:       base0B
+; *color3:       base0A
+; *color4:       base0D
+; *color5:       base0E
+; *color6:       base0C
+; *color7:       base05
+
+; *color8:       base03
+; *color9:       base08
+; *color10:      base0B
+; *color11:      base0A
+; *color12:      base0D
+; *color13:      base0E
+; *color14:      base0C
+; *color15:      base07
+
+; tabbed.selfgcolor:   #d6d8eb
+; tabbed.selbgcolor:   #1e222a
+
+; tabbed.normfgcolor:  #9294a8
+; tabbed.normbgcolor:  #282c34
+
+; !░░░░░░░░░░░
+; !░░ URXVT ░░
+; !░░░░░░░░░░░
+
+URxvt.font: xft:JetBrainsMono Nerd Font Mono:style=Regular:pixelsize=12
+;URxvt.font: xft:TerminessTTF Nerd Font, Mono-16:pixelsize=20
+;URxvt.font: JetBrainsMono Nerd Font:style:medium:pixelsize=15
+URxvt.geometry:	          100x28
+URxvt.underlineURLs:	    true
+URxvt*scrollBar:          false
+URxvt*scrollBar_right:    true
+URxvt.iso14755:           false
+URxvt.iso14755_52:        false
+!URxvt*depth:		          32
+URxvt*shading:            35
+URxvt.internalBorder:     45
+URxvt.cursorBlink:        true
+Xcursor.size:             25
+URxvt.saveLines:          20000
+URxvt.letterSpace:        0.1
+
+; !█▓▒░ Extensions
+URxvt.keysym.C-minus:     resize-font:smaller
+URxvt.keysym.C-plus:      resize-font:bigger
+URxvt.keysym.C-equal:     resize-font:reset
+URxvt.keysym.C-question:  resize-font:show
+URxvt.resize-font.step: 2
+
+; !░░░░░░░░░░░
+; !░░ XTERM ░░
+; !░░░░░░░░░░░
+
+; xterm.vt100.background:   #000000
+
+; !█▓▒░ Font
+
+; xterm*font:               -xos4-terminus-medium-r-normal--14-140-72-72-c-80-iso10646-1
+; xterm*vt100.geometry:     100x25
+; xterm*dynamicColors:      true
+; xterm*utf8:               2
+; xterm*eightBitInput:      true
+; xterm*saveLines:          512
+; xterm*scrollKey:          true
+; xterm*scrollTtyOutput:    false
+; xterm*scrollBar:          false
+; xterm*rightScrollBar:     true
+; xterm*jumpScroll:         true
+; xterm*multiScroll:        true
+; xterm*toolBar:            false
+
+
+
+Xft.antialias:	1
+Xft.hinting:	1
+Xft.autohint:	0
+Xft.hintstyle:	hintslight
+Xft.rgba:	rgb
+Xft.lcdfilter:	lcddefault
+
+! window padding
+st.borderpx: 20
+
+!-- values between 0.1  - 1.0 --! 
+
+st.alpha: 1.0 
+st.font:           JetBrainsMono Nerd Font:style:medium:pixelsize=15
+
+#define base00 #282c34
+#define base01 #353b45
+#define base02 #3e4451
+#define base03 #545862
+#define base04 #565c64
+#define base05 #abb2bf
+#define base06 #b6bdca
+#define base07 #c8ccd4
+#define base08 #e06c75
+#define base09 #d19a66
+#define base0A #e5c07b
+#define base0B #98c379
+#define base0C #56b6c2
+#define base0D #61afef
+#define base0E #c678dd
+#define base0F #be5046
+
+*foreground:   base07
+*background:   #1e222a
+*cursorColor:  base05
+
+*color0:       base00
+*color1:       base08
+*color2:       base0B
+*color3:       base0A
+*color4:       base0D
+*color5:       base0E
+*color6:       base0C
+*color7:       base05
+
+*color8:       base03
+*color9:       base08
+*color10:      base0B
+*color11:      base0A
+*color12:      base0D
+*color13:      base0E
+*color14:      base0C
+*color15:      base07
+
+! just remove this if you dont use my tabbed
+
+tabbed.selfgcolor:   #d6d8eb
+tabbed.selbgcolor:   #1e222a
+
+tabbed.normfgcolor:  #9294a8
+tabbed.normbgcolor:  #282c34
